@@ -23,6 +23,6 @@ function generate_url(){
     url.innerHTML = '<p class="alert alert-danger">Deben rellenarse ambos campos</p>';
   }
   else{
-  url.innerHTML = document.location.pathname + '?r=' + redirect_to.value + '&' + makeid() + '&c=' + clic_on.value;
+  url.innerHTML = document.domain + document.location.pathname + '?r=' + redirect_to.value + '&' + makeid() + '&c=' + clic_on.value;
   }
 }
