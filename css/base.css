@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.row {
+	display: block;
+}
+
+* [class^='.col'] {
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.colm1 {
+	width: 75px;
+}
+
+.colm2 {
+	width: 150px;
+}
+
+.colm3 {
+	width: 225px;
+}
+
+.colm4 {
+	width: 300px;
+}
+
+.colm5 {
+	width: 375px;
+}
+
+.colm6 {
+	white-space: nowrap;
+	width: 450px;
+	float: left;
+}
+
+.colm7 {
+	width: 525px;
+}
+
+.colm8 {
+	width: 600px;
+}
+
+.colm9 {
+	width: 675px;
+}
+
+.colm10 {
+	width: 750px;
+}
+
+.colm11 {
+	width: 825px;
+}
+
+.colm12 {
+	width: 900px;
+}

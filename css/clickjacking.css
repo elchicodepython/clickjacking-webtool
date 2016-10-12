@@ -1,0 +1,55 @@
+.body {
+	color: #004D40;
+}
+
+.big {
+	font-size: 20px;
+}
+
+.green {
+	color: #4CAF50;
+}
+
+.ppt {
+	border-bottom: 1px solid green;
+	padding-bottom: 10px;
+}
+
+.ppt .body {
+	text-align: center;
+	height: 300px;
+}
+
+.ppt>.body>img {
+	height: 150px;
+}
+
+.ppt>footer {
+	text-align: center;
+}
+
+.modal-header {
+	background: #4DB6AC;
+}
+
+.modal-body{
+	word-break: break-all;
+}
+
+.btn-green {
+	background: #00897B;
+	color: white;
+}
+
+.btn-green:hover {
+	background: #009688;
+	color: white;
+}
+
+body>footer {
+	position: fixed;
+	padding: 10px;
+	background: #4CAF50;
+	bottom: 0px;
+	width: 100%;
+}
